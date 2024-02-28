@@ -72,11 +72,11 @@ inline void parallelReduce(std::size_t begin,
 // TRUE and FALSE macros that may come with system headers on some systems
 // But conflict with R.h (R_ext/Boolean.h)
 // TRUE and FALSE macros should be undef in RcppParallel.h
-#ifdef TRUE
-  #undef TRUE
-#endif
-#ifdef FALSE
-  #undef FALSE
-#endif
+// #ifdef TRUE
+//   #undef TRUE
+// #endif
+// #ifdef FALSE
+//   #undef FALSE
+// #endif
 
 #endif // __RCPP_PARALLEL__
