@@ -79,4 +79,5 @@ inline void parallelReduce(std::size_t begin,
 //   #undef FALSE
 // #endif
 
+
 #endif // __RCPP_PARALLEL__
